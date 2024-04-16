@@ -8,6 +8,18 @@
         {
             "src":"/(.*)",
             "dest":"src/wsgi.py"
+        },
+        {
+            "src":"/static/(.*)",
+            "dest":"static/$1"
+        },
+        {
+            "src":"/media/(.*)",
+            "dest":"media/$1"
+        },
+        {
+            "src":"/(.*)",
+            "dest":"src/wsgi.py"
         }
     ]
 }
